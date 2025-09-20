@@ -1,34 +1,45 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
-:root{
-    --primary-color:#8F0101;
-    --secondary-color:#B81515;
+:root {
+  --primary-color: #8f0101;
+  --secondary-color: #b81515;
 
-    --brackground-primary-color: #ffffff;
-    --brackground-secondary-color: #f5f5f5;
-    --brackground-tertiary-color: #0000;
+  --brackground-primary-color: #ffffff;
+  --brackground-secondary-color: #f5f5f5;
+  --brackground-tertiary-color: #0000;
 
-    --text-primary-color: #222222;
-    --text-secondary-color: #FFFFFF;
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
 
-    --title-weight: 700;
-    --text-weight: 400;
-    --menu-text-weight: 500
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
 /* CSS RESET */
-body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h1{
-    font-family: "Montserrat";
-    font-weight: var(--title-weight);
-    color: var(--primary-color);
+h1 {
+  font-family: "Montserrat";
+  font-weight: var(--title-weight);
+  color: var(--primary-color);
+  color: var(--primary-color);
 }
