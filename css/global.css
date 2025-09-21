@@ -9,9 +9,9 @@
   --primary-color: #8f0101;
   --secondary-color: #b81515;
 
-  --brackground-primary-color: #ffffff;
-  --brackground-secondary-color: #f5f5f5;
-  --brackground-tertiary-color: #000000;
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
 
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
@@ -36,4 +36,8 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat";
 }
