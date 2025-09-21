@@ -13,6 +13,14 @@ header {
   width: 68px;
   height: 64px;
 }
+
+.logo-mobile {
+  display: block;
+}
+
+.logo-desktop {
+  display: none;
+}
 .navigation-menu {
   margin-top: 24px;
 }
@@ -64,5 +72,30 @@ nav {
   }
   .navigation-menu li {
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 38px 120px;
+  }
+  .logo {
+    width: 260px;
+    height: 64px;
+  }
+  .img-desktop {
+    display: block;
+  }
+  .img-mobile {
+    display: none;
+  }
+  .navigation-menu a:hover {
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  header {
+    padding: 38px 160px;
   }
 }
