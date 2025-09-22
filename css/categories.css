@@ -21,8 +21,13 @@
   font-size: 28px;
   font-weight: var(--title-weight);
 }
+/* trick */
 .categories-cards .card.single-line {
   padding-top: 50px;
+}
+/* trick */
+.categories-cards .card.single-line.transfer img {
+  margin: 10px 0 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -33,6 +38,7 @@
   }
 }
 
+/* trick para tablet */
 @media screen and (min-width: 1024px) {
   .categories-cards .card {
     width: 430px;
