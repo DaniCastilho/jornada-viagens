@@ -1,7 +1,6 @@
 .offers {
   margin-bottom: 104px;
 }
-/* trick */
 .offers-cards {
   display: flex;
   flex-direction: column;
