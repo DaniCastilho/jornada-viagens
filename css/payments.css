@@ -6,9 +6,7 @@
   margin-top: 24px;
   width: 100%;
 }
-.payments .content-container {
-  display: flex;
-}
+
 .payments .content-container .image-gallery .image.first {
   background: url(../img/gallery1-mobile.png) no-repeat;
   background-size: cover;
@@ -40,11 +38,16 @@
   }
 }
 
-@media screen and (min-width: 440px) {
-  .payments .content-container .text-content {
-    width: 790px;
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
+    justify-content: space-between;
   }
-  .payments .content-container gti.image-gallery {
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+  .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 }
