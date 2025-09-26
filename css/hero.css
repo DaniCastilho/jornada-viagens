@@ -110,7 +110,6 @@
   }
   /* PACOTES DE VIAGENS */
   .travel-packages .hero-content {
-    width: 1200px;
     padding: 150px 120px 170px;
     margin: 0 auto;
   }
@@ -126,6 +125,12 @@
     background: url(../img/travel-packages/japan-bg-bottom-hero-desktop.png)
       no-repeat;
     background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .travel-packages .hero-content {
+    width: 1200px;
   }
 }
 
